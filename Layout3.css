@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    background: white;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+/*bg atas*/
+.bgatas{
+    width: 1140px;
+    margin: auto;
+}
+.bgatas img{
+    width: 1140px;
+}
+
+/* Header */
+.header {
+    padding: 30px;
+    text-align: center;
+    background: rgb(255, 145, 0) ;
+}
+
+.header h1 {
+    font-size: 50px;
+}
+
+/* top navigation */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: greenyellow;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* color on hover */
+.topnav a:hover {
+    background-color:white;
+    color: white;
+}
+
+/* Left column*/
+.leftcolumn {
+    float: left;
+    width: 75%;
+}
+
+/* Right Column */
+.rightcolumn {
+    float: right;
+    width: 25%;
+    background-color: white;
+    padding-left:20px;
+}
+
+
+/* Fake image */
+.fakeimg {
+    background-color:turquoise;
+    width: 100px;
+    padding: 20px;
+}
+
+/* add a card effect articles */
+.card {
+    background-color: turquoise;
+    padding : 20px;
+    margin-top: 20px;
+}
+
+/* Clear floats after the column */
+.row:after {
+    content:"";
+    display: table;
+   clear:both;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: greenyellow;
+    margin-top: 10px;
+}
+
+
+/* Responsive layout */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+        width: 100%;
+        padding: 0;
+    }
+    .bgatas img{
+        width: 500px;
+    }
+   
+    }
+
+
+/* Responsive layout */
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100px;
+    }
+    .bgatas img{
+        width: 250px;
+    }
+    
+    }
+
+
